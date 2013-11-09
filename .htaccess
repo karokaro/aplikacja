@@ -1,0 +1,10 @@
+DirectoryIndex index.html
+AuthName "profizjo"
+AuthUserFile "/home/villainh/.htpasswds/public_html/profizjoterapia.pl/passwd"
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 83.15.149.52
